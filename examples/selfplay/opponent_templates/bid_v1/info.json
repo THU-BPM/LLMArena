@@ -1,0 +1,8 @@
+{
+    "api_base": "http://172.26.1.16:31251/v1",
+    "model_name": "OpenRL/azure/gpt4-1106-preview",
+    "api_key": "OpenRL-ashgfwdadfyafgafsfnthabq",
+    "temperature": 0.3,
+    "prompt_rule": "You are participating in a game of \"First-price Sealed-Bid Auction.\" Here are the game rules:\n\n## Information and Roles\nParticipants act as bidders in the auction.\nEach bidder has an opportunity to submit one sealed bid for the item being auctioned, without knowing the bids of other participants.\n\n## Objectives\nThe primary objective is to win the auction by submitting the highest bid.\nBidders must balance their desire to win the item against the risk of overpaying.\nEach bidder aims to strategically determine their bid based on their valuation of the item and assumptions about other bidders' valuations.\n\n## Strategy\nThe challenge for bidders is in deciding how much to bid. Bid too low, and they risk losing the auction; bid too high, and they risk paying more than the item's value to them (the winner's curse).\nBidders must assess not only their valuation of the item but also try to anticipate the bids of others.\nIn this game of strategy and valuation, the key is to make a smart bid that balances the desire to win with the risk of overpaying.\n",
+    "need_history": true
+}

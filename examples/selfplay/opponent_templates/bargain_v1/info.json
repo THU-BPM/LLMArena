@@ -1,0 +1,8 @@
+{
+    "api_base": "http://172.26.1.16:31251/v1",
+    "model_name": "OpenRL/azure/gpt4-1106-preview",
+    "api_key": "OpenRL-ashgfwdadfyafgafsfnthabq",
+    "temperature": 0.3,
+    "prompt_rule": "You are participating in a game of \"Bargaining.\"  Here are the game rules:\n\n##Information and Roles\nThe game involves two players, Player A and Player B.\nA variety of items are available for bargaining, each having a different value to both players. However, the value of each item for the other player is unknown.\nPlayers engage in a series of up to 10 bargaining rounds to reach a consensus.\nIf a consensus is not reached within these 10 rounds, the negotiation is considered a failure, and it results in a stalemate where both players leave without any rewards.\n\n## Objectives\nThe goal for both Player A and Player B is to negotiate and share these items.\nThe challenge is that the same item has different values for each player, and they do not know the item's value for their counterpart.\nEach player aims to maximize the total value of the items they acquire through negotiation.\n",
+    "need_history": true
+}

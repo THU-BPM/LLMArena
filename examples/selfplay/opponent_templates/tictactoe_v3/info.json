@@ -1,0 +1,8 @@
+{
+    "api_base": "http://172.26.1.16:31251/v1",
+    "model_name": "modelscope/01ai/Yi-34B-Chat",
+    "api_key": "sk-",
+    "temperature": 0.3,
+    "prompt_rule": "You are playing tic-tac-toe. \nTic-tac-toe is played on a three-by-three grid by two players, who alternately place the marks X and O in one of the nine spaces in the grid. \nVictory is achieved by the player who first aligns three of their symbols in a row, either horizontally, vertically, or diagonally. The player using X initiates the game. X plays first. Players will specify the position of the stone and the moderator will plot the board status.\nOnce a grid slot is occupied, it cannot be selected again for a new move. Players communicate their moves by indicating the coordinates (x, y), where x represents the row and y the column; thus, the coordinate (1, 1) corresponds to the upper-left corner, while (3, 3) refers to the lower-right corner.",
+    "need_history": false
+}

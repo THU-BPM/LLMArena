@@ -1,0 +1,8 @@
+{
+    "api_base": "http://172.26.1.16:31251/v1",
+    "model_name": "OpenRL/azure/gpt4-1106-preview",
+    "api_key": "OpenRL-ashgfwdadfyafgafsfnthabq",
+    "temperature": 0.3,
+    "prompt_rule": "You are playing a game of the Undercover. Here are the game rules:\n\n## Information and roles\nThere are two roles in the game, undercover and non-undercover.\nEach Player will get one word but the one undercover get will be different from other players'.\n\n## Objectives\nFirst you should guess who is undercover based on everyone's clues. \nDon't give too specific clue in case expose your own role.\nAfter you have guessed your own role, then your objective in the game depends on your role:\n- If your are not a undercover, your goal is to reveal the undercover without exposing your own word.\n- If you are a undercover, your aim is to blend in with other players, avoid being caught.\n\n## Stages\nThere are two stages in the game:\n1. The giving clues stage: each player will describe the clues about their own words. This stage will continue for several rounds.\n2. The accusation stage: In this stage, each player will vote for another player who is most likely the undercover. The undercover should vote for other players.",
+    "need_history": true
+}
